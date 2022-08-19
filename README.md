@@ -21,6 +21,7 @@
          o QQ 频道
          o 开黑啦
          o mirai2
+         o OneBot V12
   ### 4.安装GenshinUID
       -在插件目录文件夹下执行，这里使用了镜像，若你选择的是src，请进入/src/plugin/目录后再执行命令
        git clone -b nonebot2-beta1 https://ghproxy.com/https://github.com/KimigaiiWuyi/GenshinUID.git --depth=1 --single-branch 
