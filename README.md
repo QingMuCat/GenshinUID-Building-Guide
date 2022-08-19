@@ -4,7 +4,7 @@
 - #### 搭建教程前确保，你已经安装如下环境：Python，Git ，FFmpeg （发送语音所需）。Python版本的话推荐3.10以上，不会安装建议百度，这里提供安装方法链接 [Python安装](超链接地址 "https://zhuanlan.zhihu.com/p/104502997") 方法仅供参考，遇见问题自行百度解决
 - #### 安装好之后，建立一个文件夹，命名为BOT
 ## 下面正式进入教程环节
-  ### 1.进入终端，执行```cd Bot```命令, 首先安装虚拟环境```pip install poetry```，运行```poetry -V```查看版本，如果有版本号说明安装成功，最后```poetry init```然后出现的提示一直按回车就行，回车完后输入```poetry shell```进入虚拟环境;
+  ### 1.进入终端，执行```cd Bot```命令, 首先安装虚拟环境```pip install poetry```，运行```poetry -V```查看版本，如果有版本号说明安装成功，最后 ```poetry init```然后出现的提示一直按回车就行，回车完后输入```poetry shell```进入虚拟环境;
   ### 2.安装nb脚手架 ```pip install nb-cli```;
   ### 3.创建nonebot2项目 ```nb create```;
      创建项目示例：
