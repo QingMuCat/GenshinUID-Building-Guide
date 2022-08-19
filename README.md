@@ -1,7 +1,7 @@
 # GenshinUID-搭建指南
 - #### 本教程为Nonebot2搭建教程，本教程适用于win系统以及Linux系统搭建
 - #### Tips: GenshinUID3.0beta还是测试服哦，有Bug及时反馈捏
-- #### 搭建教程前确保，你已经安装如下环境：Python，Git ，FFmpeg （发送语音所需）。Python版本的话推荐3.10以上，不会安装建议百度，这里提供安装方法链接 [Python安装](超链接地址 "https://zhuanlan.zhihu.com/p/104502997")、  [Git安装](超链接地址 "https://www.runoob.com/git/git-install-setup.html") 、FFemg安装自行百度。T: 上诉方法仅供参考，遇见问题自行百度解决，感谢菜鸟教程
+- #### 搭建教程前确保，你已经安装如下环境：Python，Git ，FFmpeg （发送语音所需）。Python版本的话推荐3.10以上，不会安装建议百度，自行百度。T: 上诉方法仅供参考，遇见问题自行百度解决，感谢菜鸟教程
 - #### 安装好之后，建立一个文件夹，命名为BOT
 ## 下面正式进入教程环节
   ### 1.进入终端，执行```cd Bot```命令, 首先安装虚拟环境```pip install poetry```，运行```poetry -V```查看版本，如果有版本号说明安装成功，最后 ```poetry init```然后出现的提示一直按回车就行，回车完后输入```poetry shell```进入虚拟环境;
@@ -45,6 +45,6 @@
 ### 二、 Bot启动报此错误```No module named 'xxxxx'```
          解决方法：
          1.依赖未安装，使用命令pip install xxxxx即可; T：就是缺啥补啥，就完了
-         2.无效可以尝试pip3 install xxxxx;           T:甚至你可以重装
+         2.无效可以尝试pip3 install xxxxx;           T: 甚至你可以重装，重装可以解决90%的问题（确信）
 -------
 #### 教程和问题基本就这些了，若教程有误，及时联系QQ：1242550160  呜呜呜呜
