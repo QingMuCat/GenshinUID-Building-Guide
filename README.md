@@ -53,6 +53,7 @@
          1.nb plugin install ...   T:也是缺啥补啥
 ### 四、 git pull 报错
          解决方法：
-         1.执行 git reset --hard FETCH_HEAD 目的：冲掉本地冲突文件
+         1.执行 git reset --hard FETCH_HEAD 命令，此目的是：冲掉本地冲突文件
+         2.然后重新git pull
 -------
 #### 教程和问题基本就这些了，若教程有误，及时联系QQ：1242550160  呜呜呜呜
