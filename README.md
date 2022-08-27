@@ -41,9 +41,7 @@
   ### 6.启动
       返回Nonebot2文件下，使用nb run启动bot
   ### 7.更新手段
-      依次执行命令
-      1.git reset --hard FETCH_HEAD  目的：冲掉本地冲突文件
-      2.git pull 
+      更新命令：git pull 
 ## 基本教程到这里已经结束了，下面是常见问题解决方法
 ### 一、 绑定ck，出现，Cookie缺失关键字段 account_id 和 cookie_token，导致数据库未初始化，可以尝试使用无痕模式获取或退出后重新登录获取；
 ### 二、 Bot启动报此错误```No module named 'xxxxx'```
@@ -53,5 +51,8 @@
 ### 三、 Bot启动报此错误```Caonot load plugin "..."```
          解决方法：
          1.nb plugin install ...   T:也是缺啥补啥
+### 四、 git pull 报错
+         解决方法：
+         1.执行 git reset --hard FETCH_HEAD 目的：冲掉本地冲突文件
 -------
 #### 教程和问题基本就这些了，若教程有误，及时联系QQ：1242550160  呜呜呜呜
