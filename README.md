@@ -36,12 +36,16 @@
       -在插件目录文件夹下执行，这里使用了镜像，若你选择的是src，请进入/src/plugin/目录后再执行命令
        git clone -b nonebot2-beta1 https://ghproxy.com/https://github.com/KimigaiiWuyi/GenshinUID.git --depth=1 --single-branch 
       -进入 GenshinUID 文件夹内，安装依赖库
-       poetry install
+       poetry install，若此命令更新报错可以采用此命令执行 python -m pip install -r requirements.txt
       -无需添加插件加载目录
   ### 6.启动
       返回Nonebot2文件下，使用nb run启动bot
   ### 7.更新手段
       更新命令：git pull 
+##  数据文件常用位置
+### 1.ID_DATA.db (此文件存储CK以及stoken相关数据)
+### 2.抽卡记录以及角色面板在插件目录下player 
+-------
 ## 基本教程到这里已经结束了，下面是常见问题解决方法
 ### 一、 绑定ck，出现，Cookie缺失关键字段 account_id 和 cookie_token，导致数据库未初始化，可以尝试使用无痕模式获取或退出后重新登录获取；
 ### 二、 Bot启动报此错误```No module named 'xxxxx'```
