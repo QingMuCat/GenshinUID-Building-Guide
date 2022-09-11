@@ -33,7 +33,7 @@
        COMMAND_START=["/", ""]  # 配置命令起始字符
        COMMAND_SEP=["."]  # 配置命令分割字符
   ### 5.安装GenshinUID
-      -在插件目录文件夹下执行，这里使用了镜像，若你选择的是src，请进入/src/plugin/目录后再执行命令
+      -在BOT目录下执行，这里使用了镜像；若你选择的是src，请进入/src/plugin/目录后再执行命令
        git clone -b nonebot2-beta1 https://ghproxy.com/https://github.com/KimigaiiWuyi/GenshinUID.git --depth=1 --single-branch 
       -clone完成后直接执行 pip install --editable ./GenshinUID 进行安装
       -加载插件：在bot.py文件中导入 nonebot.load_plugin("GenshinUID")
