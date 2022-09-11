@@ -1,6 +1,6 @@
-# GenshinUID-搭建指南
+# GenshinUID-搭建指南 V3.1
 - #### 本教程为Nonebot2搭建教程，本教程适用于win系统以及Linux系统搭建
-- #### Tips: GenshinUID3.0beta还是测试服哦，有Bug及时反馈捏
+- #### Tips: GenshinUID3.1，有Bug及时反馈捏
 - #### 搭建教程前确保，你已经安装如下环境：Python，Git ，FFmpeg （发送语音所需）。Python版本的话推荐3.10以上，不会安装建议百度，自行百度。
 - #### 安装好之后，建立一个文件夹，命名为BOT
 ## 下面正式进入教程环节
