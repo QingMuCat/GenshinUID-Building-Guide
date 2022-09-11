@@ -55,9 +55,15 @@
 ### 三、 Bot启动报此错误```Caonot load plugin "..."```
          解决方法：
          1.nb plugin install ...   T:也是缺啥补啥
-### 四、 git pull 报错
-         解决方法：
-         1.执行 git reset --hard FETCH_HEAD 命令，此目的是：冲掉本地冲突文件
-         2.然后重新git pull
+### 四、 git pull出现此错误“error: Your local changes to the following files would be overwritten by merge”
+          别慌我们有两种解决方案，看你自己选择啦！！！！！
+          方案一：
+            1.执行 git reset --hard FETCH_HEAD 命令，此目的是：冲掉本地冲突文件
+            2.然后重新git pull
+          方案二：（根据顺序执行命令）
+          命令解释：git stash的时候会把你本地文件进行快照
+            1.git stash
+            2.git pull origin master  T：这里注意master只是示例，自己看分支名
+            3.git stash pop
 -------
 #### 教程和问题基本就这些了，若教程有误，及时联系QQ：1242550160  呜呜呜呜
